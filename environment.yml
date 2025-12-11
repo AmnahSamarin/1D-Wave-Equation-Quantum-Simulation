@@ -1,0 +1,13 @@
+name: Q1Dwave
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - qiskit==2.2.1
