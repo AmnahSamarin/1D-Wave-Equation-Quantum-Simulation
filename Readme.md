@@ -27,23 +27,41 @@ The figure below summarizes the Variational Quantum State Preparation (VQSP) wor
 
 ---
 
-## Environment Setup (Quick Start)
+## Install Qiskit (Specific Version)
 
-This project uses a dedicated conda environment named **Q1Dwave** to ensure full reproducibility of the simulations.
-
-### 1. Create and activate the environment
-
-From the root of the repository (where `environment.yml` is located), run:
+This project uses **Qiskit** for its quantum computing components. To ensure consistency and reproducibility across environments, install the exact version used in development:
 
 ```bash
-conda env create -f env.yml
-conda activate Q1Dwave
+pip install qiskit==2.2.1
 ```
 
-### 2. Register the environment as a Jupyter kernel
-```bash
-python -m ipykernel install --user --name Q1Dwave --display-name "Python (Q1Dwave)"
-```
+[//]: # (## Environment Setup &#40;Quick Start&#41;)
+
+[//]: # ()
+[//]: # (This project uses a dedicated conda environment named **Q1Dwave** to ensure full reproducibility of the simulations.)
+
+[//]: # ()
+[//]: # (### 1. Create and activate the environment)
+
+[//]: # ()
+[//]: # (From the root of the repository &#40;where `environment.yml` is located&#41;, run:)
+
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (conda env create -f env.yml)
+
+[//]: # (conda activate Q1Dwave)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (### 2. Register the environment as a Jupyter kernel)
+
+[//]: # (```bash)
+
+[//]: # (python -m ipykernel install --user --name Q1Dwave --display-name "Python &#40;Q1Dwave&#41;")
+[//]: # (```)
 
 ---
 
